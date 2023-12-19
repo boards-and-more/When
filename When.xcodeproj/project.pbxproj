@@ -21,17 +21,14 @@
 		D58B2C281E412E7D0099F6D7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C231E412E7D0099F6D7 /* Functions.swift */; };
 		D58B2C291E412E7D0099F6D7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C241E412E7D0099F6D7 /* Observer.swift */; };
 		D58B2C2A1E412E7D0099F6D7 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C251E412E7D0099F6D7 /* Promise.swift */; };
-		D58B2C2B1E412E7D0099F6D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C261E412E7D0099F6D7 /* Result.swift */; };
 		D58B2C2C1E412E7D0099F6D7 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C271E412E7D0099F6D7 /* State.swift */; };
 		D58B2C2D1E412E820099F6D7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C231E412E7D0099F6D7 /* Functions.swift */; };
 		D58B2C2E1E412E820099F6D7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C241E412E7D0099F6D7 /* Observer.swift */; };
 		D58B2C2F1E412E820099F6D7 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C251E412E7D0099F6D7 /* Promise.swift */; };
-		D58B2C301E412E820099F6D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C261E412E7D0099F6D7 /* Result.swift */; };
 		D58B2C311E412E820099F6D7 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C271E412E7D0099F6D7 /* State.swift */; };
 		D58B2C321E412E820099F6D7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C231E412E7D0099F6D7 /* Functions.swift */; };
 		D58B2C331E412E820099F6D7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C241E412E7D0099F6D7 /* Observer.swift */; };
 		D58B2C341E412E820099F6D7 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C251E412E7D0099F6D7 /* Promise.swift */; };
-		D58B2C351E412E820099F6D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C261E412E7D0099F6D7 /* Result.swift */; };
 		D58B2C361E412E820099F6D7 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B2C271E412E7D0099F6D7 /* State.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* When.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* When.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* When.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* When.framework */; };
@@ -76,7 +73,6 @@
 		D58B2C231E412E7D0099F6D7 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		D58B2C241E412E7D0099F6D7 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		D58B2C251E412E7D0099F6D7 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		D58B2C261E412E7D0099F6D7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		D58B2C271E412E7D0099F6D7 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		D58B2C461E412F320099F6D7 /* Rx-Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rx-Info-iOS.plist"; sourceTree = "<group>"; };
 		D58B2C491E412F7C0099F6D7 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -212,7 +208,6 @@
 				D58B2C231E412E7D0099F6D7 /* Functions.swift */,
 				D58B2C241E412E7D0099F6D7 /* Observer.swift */,
 				D58B2C251E412E7D0099F6D7 /* Promise.swift */,
-				D58B2C261E412E7D0099F6D7 /* Result.swift */,
 				D58B2C271E412E7D0099F6D7 /* State.swift */,
 				D582E5821ED9AD9400D0E21B /* Error.swift */,
 			);
@@ -543,7 +538,6 @@
 			files = (
 				D58B2C281E412E7D0099F6D7 /* Functions.swift in Sources */,
 				D58B2C291E412E7D0099F6D7 /* Observer.swift in Sources */,
-				D58B2C2B1E412E7D0099F6D7 /* Result.swift in Sources */,
 				D58B2C2C1E412E7D0099F6D7 /* State.swift in Sources */,
 				D582E5831ED9AD9400D0E21B /* Error.swift in Sources */,
 				D58B2C2A1E412E7D0099F6D7 /* Promise.swift in Sources */,
@@ -568,7 +562,6 @@
 			files = (
 				D58B2C2D1E412E820099F6D7 /* Functions.swift in Sources */,
 				D58B2C2E1E412E820099F6D7 /* Observer.swift in Sources */,
-				D58B2C301E412E820099F6D7 /* Result.swift in Sources */,
 				D58B2C311E412E820099F6D7 /* State.swift in Sources */,
 				D582E5841ED9AD9400D0E21B /* Error.swift in Sources */,
 				D58B2C2F1E412E820099F6D7 /* Promise.swift in Sources */,
@@ -593,7 +586,6 @@
 			files = (
 				D58B2C321E412E820099F6D7 /* Functions.swift in Sources */,
 				D58B2C331E412E820099F6D7 /* Observer.swift in Sources */,
-				D58B2C351E412E820099F6D7 /* Result.swift in Sources */,
 				D58B2C361E412E820099F6D7 /* State.swift in Sources */,
 				D582E5851ED9AD9400D0E21B /* Error.swift in Sources */,
 				D58B2C341E412E820099F6D7 /* Promise.swift in Sources */,
